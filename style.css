@@ -1,0 +1,103 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(files/carl-raw-7H7KVCihBvI-unsplash.jpg);
+    background-size: clip;
+    background-size: 100vw 100vh;
+}
+
+#numpanel{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+
+    background-color: white;
+    width: 360px;
+    height: 200px;
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 20px;
+}
+
+.nums{
+    font-size: 100px;
+    text-align: center;
+    line-height: 180px;
+    border-radius: 10px;
+    margin: 10px;
+    z-index: -100;
+    width: 40%;
+    height: 90%;
+    background-color: gray;
+}
+
+#slot{
+    background-color: gray;
+    width: 450px;
+    height: 650px;
+    position: absolute;
+    border-radius: 30px;
+    transform: rotate(0deg);
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#currentbet{
+    position: absolute;
+    background-color: white;
+    width: 15%;
+    height: 5%;
+    left: 10%;
+    text-align: center;
+    line-height: 30px;
+    font-size: large;
+}
+
+#lever{
+    position: relative;
+    width: 10%;
+    height: 40%;
+    top:20%;
+    left: 90%;
+    background-color: red;
+    transform-origin:bottom ;
+    transform: rotate(30deg);
+    border-radius: 30px;
+    transition: all 0.2s linear;
+
+}
+
+#deposit{
+    
+    text-align: center;
+    width: 15%;
+    height: 10%;
+    line-height: 50px;
+    position: absolute;
+    right: 10%;
+}
+
+#balance{
+    font-size: x-large;
+    margin: 10px;
+    position: absolute;
+    background-color: orange;
+    z-index: 100;
+}
+
+#rewardindicator{
+    font-size: 35px;
+    text-align: center;
+    line-height: 42px;
+    background-color: red;
+    position: absolute;
+    border-radius: 20px;
+    bottom: 20%;
+    left: 50%;
+    width: 50%;
+    height: 20%;
+    transform: translate(-50%);
+}
