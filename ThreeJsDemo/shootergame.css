@@ -1,0 +1,14 @@
+body{
+    margin: 0;
+    height: 100vh;
+}
+
+canvas{
+    display: block;
+}
+
+#points{
+    position: absolute;
+    user-select: none;
+    font-size: 24px;
+}
