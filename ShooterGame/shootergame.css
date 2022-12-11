@@ -18,4 +18,5 @@ canvas{
     position: absolute;
     right: 5px;
     line-height: 40%;
+    user-select: none;
 }
