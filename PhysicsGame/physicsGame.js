@@ -83,9 +83,9 @@ var ambientLight = new THREE.AmbientLight(0xFFFFFF,0.2);
 scene.add(ambientLight);
 
 //PointLight
-var PointLight = new THREE.PointLight(0xFFFFFF,1,500)
-PointLight.position.set(2,2,2);
-scene.add(PointLight)
+var pointLight = new THREE.PointLight(0xFFFFFF,1,500)
+pointLight.position.set(2,2,2);
+scene.add(pointLight)
 
 //Parent Cube
 cube.add(camera)

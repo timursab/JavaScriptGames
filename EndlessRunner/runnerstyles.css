@@ -1,0 +1,25 @@
+html,body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+canvas{
+    display: block;
+}
+.score{
+    margin: 10px;
+    position: absolute;
+    width: 10px;
+    font-size: xx-large;
+}
+#currentscore{
+    top: 45px;
+}
+#panel{
+    position: absolute;
+    height: 0%;
+    width: 100%;
+    bottom: 0%;
+    background-color: black;
+    transition: height 1s ease;
+}
